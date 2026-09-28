@@ -14,7 +14,7 @@ Proteção de Privacidade com k-Anonymity: Utiliza o modelo k-Anonymity para ver
 
 Feedback Direcionado: Fornece pontuação (Score 0-5) e dicas pontuais de como melhorar a estrutura da senha informada.
 
-Entrada Segura de Dados: A versão de terminal utiliza a biblioteca stdiomask para ocultar a senha enquanto é digitada (evitando exposição na tela). A versão gráfica utiliza o tkinter com mascaramento nativo de caracteres (*).
+Entrada Segura de Dados: A versão de terminal utiliza a biblioteca stdiomask para ocultar a senha enquanto é digitada (evitando exposição na tela). A versão gráfica utiliza o tkinter com mascaramento nativo de caracteres (*), incluindo agora uma opção para mostrar a senha.
 
 🔒 Como a Verificação de Vazamento Funciona?
 
@@ -72,7 +72,7 @@ Privacy Protection via k-Anonymity: Uses the k-Anonymity model to check if the p
 
 Actionable Feedback: Provides a numerical rating (Score 0-5) along with specific tips on how to improve the provided password's structure.
 
-Secure Data Input: The CLI version uses the stdiomask library to hide the password as it is typed (preventing screen exposure). The GUI version uses tkinter with native character masking (*).
+Secure Data Input: The CLI version uses the stdiomask library to hide the password as it is typed (preventing screen exposure). The GUI version uses tkinter with native character masking (*), now featuring an option to show the password.
 
 🔒 How Does the Leak Verification Work?:
 
